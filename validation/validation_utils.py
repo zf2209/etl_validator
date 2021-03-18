@@ -11,7 +11,8 @@ def validate_iso2(
     result_df: Optional[pd.DataFrame] = None,
     result_index: Optional[pd.DataFrame] = None,
 ) -> Tuple[pd.DataFrame, pd.DataFrame]:
-    """ Validate if values in a country column are in or convertable to ISO2 standard.
+    """
+    Validate if values in a country column are in or convertable to ISO2 standard.
     Returns result_df and result_index.
 
     >>> result[0]
