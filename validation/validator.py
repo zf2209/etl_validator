@@ -14,7 +14,7 @@ from client_data.validation.validation_utils import validate_iso2
 hard_validation = ["non_nullable", "allowed_values", "type"]
 
 
-def ontology_validator(
+def validator(
     df: pd.DataFrame,
     error_tolerance: Optional[float] = 0.05,
     base_path: Optional[str] = "DEFAULT",
@@ -24,8 +24,9 @@ def ontology_validator(
     disable_validation: Optional[List[str]] = None,
     display_name: Optional[bool] = False,
 ) -> Tuple[bool, pd.DataFrame, pd.DataFrame]:
-    """ Validate dataframe with view schema from Ontology and user specified validation config,
-      and return validation results for overall dataframe, each column/rule and cell.
+    """ 
+    Validate dataframe with view schema from Ontology and user specified validation config,
+    and return validation results for overall dataframe, each column/rule and cell.
 
     >>> result = ontology_validator(df, view)
     >>> result[0]
