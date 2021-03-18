@@ -34,7 +34,7 @@ def validate_iso2(
       2nd pd.DataFrame -> hash validation results for each cell
     """
     # pylint: disable=too-many-nested-blocks
-    # this is a growing list of unalloed values containing continents and world
+    # this is a growing list of unallowed values containing continents and world
     unallowed_values = ["aisa", "africa", "europe", "north america", "south america", "australia/oceania", "antarctica"]
     # get latest lowercase ISO2 country code from pycountry
     iso_2 = [country_dict.alpha_2.lower() for country_dict in pc.countries.search_fuzzy("")]
