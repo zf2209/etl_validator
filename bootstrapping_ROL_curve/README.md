@@ -1,1 +1,2 @@
+Reverse engineer clients’ premium pricing models with Bootstrapping Linear ROL Curve. This method uses policy structure and LOB specific features, and estimates ROL recursively for fixed exposure split points with customized regularizers, and the model performance is close to the error lower bound for retail line portfolio. The prospective products include premium predictions for arbitrary policy as if by each insurer, ROL curve comparison for every market sub-category, advanced premium outlier detection, client’s model complexity detection.
 
