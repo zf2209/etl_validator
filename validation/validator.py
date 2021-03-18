@@ -146,6 +146,7 @@ def validator(
     result_df["time_stamp"] = time_stamp
     result_index["time_stamp"] = time_stamp
 
+    # generate hard/soft validation results based on result_df
     error_df = result_df.loc[~result_df["pass"]]
     hard_error_df = error_df.loc[error_df["validation_rule"].isin(hard_validation)]
     soft_error_df = error_df.loc[~error_df["validation_rule"].isin(hard_validation)]
