@@ -5,4 +5,4 @@ In transformer folder, you can find a scikit-learn pipeline style transformer de
 
 In validation folder, you can find a generalized validation module utilzied in ETL pipeline, and utility function to validate whether country is convertible to ISO2 standard.
 
-In bootstrapping_ROL_curve, you can find some potential products based on reverse engineered ROL curve.
+In bootstrapping_ROL_curve folder, you can find some potential products based on reverse engineered ROL curve.
